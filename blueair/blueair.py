@@ -24,6 +24,8 @@ def transform_data_points(data: MeasurementBundle) -> MeasurementList:
     key_mapping = {
         "time": "timestamp",
         "pm": "pm25",
+        "pm1": "pm1",
+        "pm10": "pm10",
         "tmp": "temperature",
         "hum": "humidity",
         "co2": "co2",
